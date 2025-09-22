@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Layout Mobile - Exemplo</title>
+    <link rel="stylesheet" href="styles\styles.css" />
+  </head>
+  <body>
+    <!-- contêiner que simula a área do celular -->
+    <div class="phone-frame">
+      <header class="site-header">
+        <h1>HEADER</h1>
+      </header>
+
+      <nav class="main-nav">
+        <a class="nav-btn" href="#">SOBRE</a>
+        <a class="nav-btn" href="#">PROJETOS</a>
+      </nav>
+
+      <!-- linha curta (50px na imagem) -->
+      <div class="short-line"></div>
+
+      <!-- seção principal com coluna esquerda (75%) e coluna direita (25%) -->
+      <section class="content-section">
+        <div class="left-col">
+          <div class="card">75% — bloco superior</div>
+          <div class="card">75% — bloco médio</div>
+          <div class="card">75% — bloco inferior</div>
+        </div>
+
+        <div class="right-col">
+          <div class="card tall">75% (vertical) — topo</div>
+          <div class="card fill">restante (rodapé da coluna)</div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>FOOTER</p>
+      </footer>
+    </div>
+  </body>
+</html>
